@@ -1,17 +1,17 @@
-// create an array of shows - in this case, awesome 90's tv shows
-var shows = ["Michael Jordan","Kobe Bryant", "Lebron James","KD", "Steph Curry", "Shaq","Shawn Kemp","Allen Iverson","Larry Bird","Magic Johnson","Dwayne Wade","Klay Thompson"];
+// create an array of Players - in this case, awesome 90's tv shows
+var topics = ["Michael Jordan","Kobe Bryant", "Lebron James","KD", "Steph Curry", "Shaq","Shawn Kemp","Allen Iverson","The Finals","Magic Johnson","Kyrie","Klay Thompson"];
 
 // creates buttons for each of these
 function makeButtons(){ 
   // deletes the shows prior to adding new shows so there are no repeat buttons
   $('#buttonsView').empty();
   // loops through the shows array
-  for (var i = 0; i < shows.length; i++){
+  for (var i = 0; i < topics.length; i++){
     // dynamically makes buttons for every show in the array
     var a = $('<button>') 
     a.addClass('show'); // add a class
-    a.attr('data-name', shows[i]); // add a data-attribute
-    a.text(shows[i]); // make button text
+    a.attr('data-name', topics[i]); // add a data-attribute
+    a.text(topics[i]); // make button text
     $('#buttonsView').append(a); // append the button to buttonsView div
   }
 }
@@ -22,7 +22,7 @@ $("#addShow").on("click", function(){
   // grabs the user show input
   var show = $("#show-input").val().trim();
   // that input is now added to the array
-  shows.push(show);
+  topics.push(show);
   // the makeButtons function is called, which makes buttons for all my shows plus the user show
   makeButtons();
   // this line is so users can hit "enter" instead of clicking the submit button

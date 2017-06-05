@@ -22,7 +22,7 @@ html{background: black;
 	text-align: center;
 	font-size: 87px;
 	margin-top: 23px;
-	text-shadow: 5px 5px 20px rgba(10, 10, 10, 1);
+	text-shadow: 5px 5px 40px rgba(10, 10, 10, 1);
 }
 
 #rim{
@@ -34,8 +34,8 @@ html{background: black;
 
 button{
 	background-color: yellow;
-	border:2px solid blue;
-	color:blue;
+	border:2px solid black;
+	color:black;
 	width: 150px;
 	border-radius: 25px; 
 	font-family: 'Mogra', cursive;
@@ -46,11 +46,11 @@ button{
 #show-input{
 	background: yellow;
 	border-radius: 25px;
-	width:200px;
+	width:210px;
 	height: 27px;
-	color:blue;
+	color:black;
 	font-family: 'Mogra', cursive;
-	border:2px solid black;
+	border:5px solid black;
 	margin-top:60px;
 	font-size:20px;
 }
@@ -113,7 +113,7 @@ img.gif{
 
 #addShow{
 	width:150px;
-	font-size: 25px;
+	font-size: 20px;
 	color:black;
 	height: 35px;
 	background-color: yellow;
@@ -126,4 +126,15 @@ img.gif{
 
 }
 
+#side{
+	margin-top: -180px;
+	margin-left: -70px;
+}
+
+#side2{
+	margin-top: -200px;
+	margin-left: 720px;
+	margin-bottom: 10px;
+
+}
 
