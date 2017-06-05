@@ -1,38 +1,68 @@
-html{
-	background:url("../images/nba.jpg");
+html{background: black;
 	background-size:cover;
+	
+
 }
 
 .container{
-	background:transparent;
-	font-family: 'Bubbler One', sans-serif;
+	background:blue;
+	font-family: 'Fontdiner Swanky', cursive;
 	width:960px;
-	margin-left: 100px;
+	margin-left: 200px;
+	border: 10px solid yellow;
+	padding-bottom: 100px;
+
 }
 
 
-h1{
-	color:blue;
+#header{
+	color:yellow;
 	display:flex;
 	justify-content: center;
-	font-size: 100px;
+	text-align: center;
+	font-size: 87px;
+	margin-top: 23px;
+	text-shadow: 5px 5px 20px rgba(10, 10, 10, 1);
+}
+
+#rim{
+	width: 200px;
+	margin-top: 90px;
+	margin-bottom: -160px;
+
 }
 
 button{
 	background-color: yellow;
-	border-color: white;
+	border:2px solid blue;
 	color:blue;
+	width: 150px;
+	border-radius: 25px; 
+	font-family: 'Mogra', cursive;
+	font-size: 17px;
+	cursor: pointer;
 }
 
-input{
+#show-input{
 	background: yellow;
+	border-radius: 25px;
+	width:200px;
+	height: 27px;
+	color:blue;
+	font-family: 'Mogra', cursive;
+	border:2px solid black;
+	margin-top:60px;
+	font-size:20px;
 }
 
 #show-form{
 	justify-content: center;
 	text-align: center;
-	color:yellow;
-	font-size: 20px;
+	color:white;
+	margin-top: -100px;
+	margin-bottom:-50px;
+	font-family: 'Mogra', cursive;
+	font-size: 30px;
 }
 
 #addshow{
@@ -49,8 +79,51 @@ input{
  
 
 #gifsView{
-	column-width: 400px;
+	column-width: 250px;
+	margin-top:100px;
 	margin-left: 100px;
+	margin-right: 150px;
+	border-radius: 25px;
+	
+}
+
+.gifs{
+	background: black;
+	justify-content: center;
+	text-align:center;
+	font-size: 20px;
+	margin-bottom:10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	color:yellow;
+	padding-top:10px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	border:5px solid yellow;
+	border-radius: 25px;
+}
+
+img.gif{
+	margin-top:50px;
+	width:250px;
+	border-radius: 25px;
+	border:2px solid yellow;
+}
+
+#addShow{
+	width:150px;
+	font-size: 25px;
+	color:black;
+	height: 35px;
+	background-color: yellow;
+	color:black;
+	font-family: 'Mogra', cursive;
+	border:2px solid black;
+	border-radius: 25px;
+	margin-bottom: 60px;
 
 
 }
+
+

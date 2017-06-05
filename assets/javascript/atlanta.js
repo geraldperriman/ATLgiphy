@@ -1,5 +1,5 @@
 // create an array of shows - in this case, awesome 90's tv shows
-var shows = ["Michael Jordan","Kobe Bryant", "Lebron James","KD", "Steph Curry", "Shaq","Shawn Kemp","Allen Iverson","Larry Bird","Patrick Ewing","Dwayne Wade","Klay Thompson"];
+var shows = ["Michael Jordan","Kobe Bryant", "Lebron James","KD", "Steph Curry", "Shaq","Shawn Kemp","Allen Iverson","Larry Bird","Magic Johnson","Dwayne Wade","Klay Thompson"];
 
 // creates buttons for each of these
 function makeButtons(){ 
@@ -46,7 +46,7 @@ function displayGifs(){
         var showGif = $('<img>');
           showGif.attr('src', results[i].images.fixed_height_still.url);
           // shows the rating on hover
-          showGif.attr('title', "Rating: " + results[i].rating);
+          gifDiv.append("Rating: " + results[i].rating);
           showGif.attr('data-still', results[i].images.fixed_height_still.url);
           showGif.attr('data-state', 'still');
           showGif.addClass('gif');
