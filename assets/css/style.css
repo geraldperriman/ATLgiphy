@@ -1,0 +1,56 @@
+html{
+	background:url("../images/nba.jpg");
+	background-size:cover;
+}
+
+.container{
+	background:transparent;
+	font-family: 'Bubbler One', sans-serif;
+	width:960px;
+	margin-left: 100px;
+}
+
+
+h1{
+	color:blue;
+	display:flex;
+	justify-content: center;
+	font-size: 100px;
+}
+
+button{
+	background-color: yellow;
+	border-color: white;
+	color:blue;
+}
+
+input{
+	background: yellow;
+}
+
+#show-form{
+	justify-content: center;
+	text-align: center;
+	color:yellow;
+	font-size: 20px;
+}
+
+#addshow{
+	justify-content: center;
+	text-align: center;
+	background: yellow;
+
+}
+
+#buttonsView{
+	justify-content: center;
+	text-align: center;
+}
+ 
+
+#gifsView{
+	column-width: 400px;
+	margin-left: 100px;
+
+
+}
