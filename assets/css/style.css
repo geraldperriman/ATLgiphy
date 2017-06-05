@@ -79,7 +79,9 @@ button{
  
 
 #gifsView{
+	column-count:2;
 	column-width: 250px;
+	column-gap:5px;
 	margin-top:100px;
 	margin-left: 100px;
 	margin-right: 150px;
@@ -102,6 +104,33 @@ button{
 	padding-right: 20px;
 	border:5px solid yellow;
 	border-radius: 25px;
+}
+
+
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }
 
 img.gif{

@@ -7,7 +7,7 @@ function makeButtons(){
   $('#buttonsView').empty();
   // loops through the shows array
   for (var i = 0; i < topics.length; i++){
-    // dynamically makes buttons for every show in the array
+    // dynamically makes buttons for every player in the array
     var a = $('<button>') 
     a.addClass('show'); // add a class
     a.attr('data-name', topics[i]); // add a data-attribute
