@@ -1,27 +1,29 @@
-html{background: black;
-	background-size:cover;
+html{background: url("../images/floor.jpg");;
+	background-size:300px;
 	
 
 }
 
 .container{
-	background:blue;
+	background:white;
 	font-family: 'Fontdiner Swanky', cursive;
-	width:960px;
-	margin-left: 200px;
-	border: 10px solid yellow;
+	margin-left: 100px;
+	border: 10px solid red;
 	padding-bottom: 100px;
+	width: 100%;
+  	max-width: 960px;
 
 }
 
 
 #header{
-	color:yellow;
+	color:red;
 	display:flex;
 	justify-content: center;
 	text-align: center;
 	font-size: 87px;
 	margin-top: 23px;
+	margin-left: 15px;
 	text-shadow: 5px 5px 40px rgba(10, 10, 10, 1);
 }
 
@@ -33,24 +35,25 @@ html{background: black;
 }
 
 button{
-	background-color: yellow;
-	border:2px solid black;
-	color:black;
+	background-color: blue;
+	border:2px solid red;
+	color:white;
 	width: 150px;
 	border-radius: 25px; 
 	font-family: 'Mogra', cursive;
 	font-size: 17px;
 	cursor: pointer;
+	margin-top: 10px;
 }
 
 #show-input{
-	background: yellow;
+	background: blue;
 	border-radius: 25px;
 	width:210px;
 	height: 27px;
-	color:black;
+	color:white;
 	font-family: 'Mogra', cursive;
-	border:5px solid black;
+	border:5px solid red;
 	margin-top:60px;
 	font-size:20px;
 }
@@ -58,7 +61,7 @@ button{
 #show-form{
 	justify-content: center;
 	text-align: center;
-	color:white;
+	color:blue;
 	margin-top: -100px;
 	margin-bottom:-50px;
 	font-family: 'Mogra', cursive;
@@ -90,76 +93,55 @@ button{
 }
 
 .gifs{
-	background: url("../images/nba-logo.png");
-	background-size: 50px;
-	background-color: yellow;
+	background: url("../images/floor.jpg");
+	background-size: 250px;
 	justify-content: center;
 	text-align:center;
 	font-size: 25px;
 	margin-bottom:10px;
 	margin-top: 10px;
 	margin-left: 20px;
-	color:black;
+	color:blue;
 	padding-top:10px;
 	padding-left: 20px;
 	padding-bottom: 20px;
 	padding-right: 20px;
-	border:5px solid black;
+	border:5px solid red;
 	border-radius: 25px;
 }
 
 
-
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
 
 img.gif{
 	margin-top:50px;
 	width:250px;
 	border-radius: 25px;
-	border:2px solid yellow;
+	border:5px solid blue;
 }
 
 #addShow{
 	width:150px;
 	font-size: 20px;
-	color:black;
 	height: 35px;
-	background-color: yellow;
-	color:black;
+	background-color: red;
+	color:white;
 	font-family: 'Mogra', cursive;
-	border:2px solid black;
+	border:2px solid blue;
 	border-radius: 25px;
 	margin-bottom: 60px;
 
 
 }
 
+
+
+
+
+
 #side{
 	margin-top: -180px;
 	margin-left: -70px;
+
 }
 
 #side2{
@@ -168,4 +150,270 @@ img.gif{
 	margin-bottom: 10px;
 
 }
+
+
+
+@media only screen and (max-width: 980px) {
+  .container {
+    max-width: 768px;
+
+    padding: 0 20px;
+  }
+
+  #header{
+  	max-width: 50%;
+  	font:10px;
+  }
+
+  #rim{
+	width:100px;
+
+}
+
+button{
+	background-color: blue;
+	border:2px solid red;
+	color:white;
+	width: 75px;
+	border-radius: 25px; 
+	font-family: 'Mogra', cursive;
+	font-size: 10px;
+
+}
+
+#show-input{
+	background: blue;
+	border-radius: 25px;
+	width:110px;
+	height: 12px;
+	color:white;
+	font-family: 'Mogra', cursive;
+	border:2px solid red;
+	margin-top:60px;
+	font-size:10px;
+}
+
+#show-form{
+	justify-content: center;
+	text-align: center;
+	color:blue;
+	margin-top: 50px;
+	margin-bottom:-200px;
+	font-family: 'Mogra', cursive;
+	font-size: 20px;
+}
+
+ 
+
+#gifsView{
+	column-count:2;
+	column-width: 100px;
+	column-gap:5px;
+	margin-top:100px;
+	margin-left: 50px;
+	margin-right: 200px;
+	border-radius: 25px;
+	
+}
+
+.gifs{
+	background: url("../images/floor.jpg");
+	background-size: 500px;
+	justify-content: center;
+	text-align:center;
+	font-size: 15px;
+
+}
+
+
+
+img.gif{
+	margin-top:50px;
+	width:300px;
+	border-radius: 25px;
+	border:5px solid blue;
+}
+
+#addShow{
+	width:150px;
+	font-size: 10px;
+	height: 35px;
+	background-color: red;
+	color:white;
+	font-family: 'Mogra', cursive;
+	border:2px solid blue;
+	border-radius: 25px;
+	margin-bottom: 30px;
+
+
+}
+
+
+#side{
+	width:20px;
+	margin-top: -180px;
+	margin-left: -70px;
+}
+
+#side2{
+	width: 20px;
+	margin-top: -200px;
+	margin-left: 720px;
+	margin-bottom: 10px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container{
+    max-width: 50%;
+  }
+
+
+  #header {
+    width: 20%;
+    font-size: 30px;
+   	justify-content: center;
+   	align-content: center;
+   	margin-left: 70px;
+    margin-bottom: 10px;
+  }
+  
+ //* #rim{
+  	background: url("assets/images/nba-logo.png")
+	width: 5px;
+	margin-top: 90px;
+	margin-bottom: -160px;
+
+}*//
+
+button{
+	background-color: blue;
+	border:2px solid red;
+	color:white;
+	width: 100px;
+	border-radius: 25px; 
+	font-family: 'Mogra', cursive;
+	font-size: 17px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+#show-input{
+	background: blue;
+	border-radius: 25px;
+	width:90px;
+	height: 27px;
+	color:white;
+	font-family: 'Mogra', cursive;
+	border:5px solid red;
+	margin-top:0px;
+	font-size:10px;
+}
+
+#show-form{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color:blue;
+	margin-top: -20px;
+	margin-bottom:-50px;
+	padding-right: 100px;
+	font-family: 'Mogra', cursive;
+	font-size: 15px;
+}
+
+
+#buttonsView{
+	justify-content: center;
+	text-align: center;
+}
+ 
+
+#gifsView{
+	margin-top: -250px;
+	column-count:1;
+	column-width: 0px;
+	column-gap:5px;
+	
+	
+}
+
+.gifs{
+	background: url("../images/floor.jpg");
+	background-size: 500px;
+	width: 165px;
+	margin-left: -50px;
+	font-size: 20px;
+	border:2px solid red;
+	border-radius: 25px;
+}
+
+
+
+img.gif{
+	margin-top:50px;
+	width:170px;
+	margin-left: 
+	border-radius: 25px;
+	border:2px solid blue;
+}
+
+#addShow{
+	width:70px;
+	font-size: 10px;
+	height: 35px;
+	background-color: red;
+	color:white;
+	font-family: 'Mogra', cursive;
+	border:2px solid blue;
+	border-radius: 25px;
+	margin-bottom: 60px;
+
+
+}
+
+
+
+
+
+
+#side{
+	background: url("../assets/images/nba-logo.png");
+	width:10px;
+	margin-top: -180px;
+	margin-left: -70px;
+}
+
+#side2{
+	background: url("../assets/images/nba-logo.png");
+	width:10px;
+	margin-top: -200px;
+	margin-left: 720px;
+	margin-bottom: 10px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+
+  	#header {
+    padding: 0;
+    width: 20%
+    font:10px;
+
+  }
+
+	#container {
+    padding-top: 0;
+    max-width: 20%
+  }
+
+ 
+  }
+}
+
 
