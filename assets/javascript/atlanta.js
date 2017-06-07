@@ -26,7 +26,10 @@ $("#addShow").on("click", function(){
   // the makeButtons function is called, which makes buttons for all my shows plus the user show
   makeButtons();
   // this line is so users can hit "enter" instead of clicking the submit button
-  return false; 
+  return false;
+
+  $("topic-input").html();
+
 
 
 })
