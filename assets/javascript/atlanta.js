@@ -20,13 +20,15 @@ function makeButtons(){
 $("#addShow").on("click", function(){
 
   // grabs the user show input
-  var show = $("#show-input").val().trim();
+  var show = $("#topic-input").val().trim();
   // that input is now added to the array
   topics.push(show);
   // the makeButtons function is called, which makes buttons for all my shows plus the user show
   makeButtons();
   // this line is so users can hit "enter" instead of clicking the submit button
   return false; 
+
+
 })
 
 // function to display gifs
@@ -51,10 +53,9 @@ function displayGifs(){
           showGif.attr('data-state', 'still');
           showGif.addClass('gif');
           showGif.attr('data-animate', results[i].images.fixed_height.url);
-        // var rating = results[i].rating;
-        // var p = $('<p>').text('Rating: ' + rating);
+        
         gifDiv.append(showGif)
-        // gifDiv.append(p)
+        
 
         $("#gifsView").prepend(gifDiv);
       }
